@@ -61,7 +61,7 @@ namespace Lessons.Chapter1
             // As a reference type, .Net will already allow it to be null,
             // but newer versions of C# have a setting to warn when a reference-type
             // variable might be set to null, unless it's marked nullable.
-            // See TonyLessons.csproj and find the setting: <Nullable>enable</Nullable>
+            // See Lessons.csproj and find the setting: <Nullable>enable</Nullable>
             Example? six = null;
 
             // This will also assign null to six. The only difference from five is that we don't need
