@@ -10,6 +10,11 @@ namespace Lessons
     {
         private class ExampleA
         {
+            public ExampleA(int a)
+            {
+                Console.WriteLine("ExampleA class constructor called.");
+            }
+
             // A virtual method can be overridden in a derived class.
             public virtual void Foo()
             {
@@ -24,6 +29,13 @@ namespace Lessons
 
         private class ExampleB : ExampleA
         {
+            // A derived class must call one of the constructors in its base class.
+            // If the base class has a parameterless constructor, it will be called automatically.
+            public ExampleB(int a)
+                : base(a)
+            {
+            }
+
             // This is a new version of the virtual Foo() method.
             public override void Foo()
             {
@@ -46,11 +58,11 @@ namespace Lessons
 
         public static void Main()
         {
-            ExampleA one = new ExampleA();
-            ExampleB two = new ExampleB();
+            ExampleA one = new ExampleA(42);
+            ExampleB two = new ExampleB(1337);
             ExampleA three = two; // Upcasting
             ExampleB four = (ExampleB)three; // Downcasting
-            // four = (ExampleB)one; // This will throw an InvalidCastException at runtime.
+            //four = (ExampleB)one; // This will throw an InvalidCastException at runtime.
 
             one.Foo();
             one.Bar();
