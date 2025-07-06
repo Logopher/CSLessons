@@ -28,7 +28,7 @@ namespace Lessons.Chapter1
 
             memory[ptr1] = "qux";
 
-            // If we print the values again, the second part of the output is different.
+            // If we print the values again, the second part of the output is ... not different.
             Console.WriteLine(memory[ptr1] + memory[ptr2]);
         }
     }

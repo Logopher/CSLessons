@@ -8,5 +8,6 @@ namespace Lessons.Chapter2
 {
     public class Lesson09
     {
+        // Write a console Tic-Tac-Toe game.
     }
 }
