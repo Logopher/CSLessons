@@ -9,7 +9,7 @@ namespace Lessons.Chapter1
     public class Lesson04
     {
         // This is another class, in addition to Lesson04.
-        // It's inside Lesson04, and because it's not "public",
+        // It's inside Lesson04, and because it's "private",
         // it can only be accessed from within Lesson04.
         // That's handy in this case because I want "Example"
         // classes in other lessons.
