@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lessons
 {
-    public class Lesson13
+    public static class Lesson13
     {
         // IEnumerator is an interface that enables iteration (like the earlier for loop) over a collection.
         class ExampleEnumerator : IEnumerator

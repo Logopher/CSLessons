@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lessons
 {
-    public class Lesson14
+    public static class Lesson14
     {
         // Click the down arrow to the left to collapse this class definition.
         // It's the same as in the previous lesson.
@@ -105,6 +105,7 @@ namespace Lessons
                 Console.WriteLine((string)item);
             }
 
+            // And look what else we can do.
             foreach (var surprise in Bonus())
             {
                 // Actually WriteLine can take any type of value.

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lessons
 {
-    public class Lesson09
+    public static class Lesson09
     {
         // This is an interface, which is very different from both classes and structs.
         // Interfaces are named 1) with an 'I' prefix, and 2) to describe some specific

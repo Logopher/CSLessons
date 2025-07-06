@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lessons
 {
-    public class Lesson11
+    public static class Lesson11
     {
         private interface IHasText
         {

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lessons
 {
-    public class Program
+    public static class Program
     {
         public static void Main()
         {
-            Lesson03.Main();
+            Lesson16.Main();
         }
     }
 }

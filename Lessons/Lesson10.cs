@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lessons
 {
-    public class Lesson10
+    public static class Lesson10
     {
         private class ExampleA
         {

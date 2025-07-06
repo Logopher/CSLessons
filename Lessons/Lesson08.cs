@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Lessons
 {
-    public class Lesson08
+    // A static class is only allowed to have static members.
+    public static class Lesson08
     {
         private class Example
         {

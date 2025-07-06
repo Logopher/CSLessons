@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lessons
 {
-    public class Lesson12
+    public static class Lesson12
     {
         // If you don't specify an access modifier, it defaults to private.
         class Example
