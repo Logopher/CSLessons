@@ -81,8 +81,8 @@ namespace Lessons.Chapter1
             // The key difference between classes and structs is that classes are reference types, while structs are value types.
             // This means that when you assign a class to a variable, you're assigning a reference to the object in memory, not the object itself.
             // When you assign a struct to a variable, you're copying the entire value of the struct.
-            // So when we assigned `two` to `one`, they both pointed to the same object in memory.
-            // When we assigned `four` to `three`, they were two separate copies of the struct, so changing one didn't affect the other.
+            // So when we assigned `one` to `two`, they both pointed to the same object in memory.
+            // When we assigned `three` to `four`, they were two separate copies of the struct, so changing one didn't affect the other.
             // If you want to see this in action, try changing the text of `one` and `three` and printing them again.
 
             // Other than this difference in copy behavior, classes and structs are very similar.
