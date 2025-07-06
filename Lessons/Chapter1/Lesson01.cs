@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Lessons
+namespace Lessons.Chapter1
 {
     // "public" means that this class and its Main method can be accessed from other classes.
     public class Lesson01

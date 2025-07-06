@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons
+namespace Lessons.Chapter2
 {
-    public class Lesson16
+    public class Lesson08
     {
         class Node
         {
@@ -97,7 +97,7 @@ namespace Lessons
             {
                 Console.WriteLine(string.Join(
                     " > ",
-                    chain.Select(node=>node.Name)));
+                    chain.Select(node => node.Name)));
             });
         }
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons
+namespace Lessons.Chapter1
 {
     public class Lesson05
     {
@@ -54,7 +54,7 @@ namespace Lessons
             Console.WriteLine(one.text + two.text);
             Console.WriteLine(three.text + four.text);
 
-            // This will assign null to three. The default value of a reference type is null.
+            // This will assign null to five. The default value of a reference type is null.
             Example five = default!;
 
             // The '?' marks six as nullable.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons
+namespace Lessons.Chapter1
 {
     // Lesson05 got too long. This was trimmed off of it.
     public class Lesson06

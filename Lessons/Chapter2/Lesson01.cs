@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons
+namespace Lessons.Chapter2
 {
-    public static class Lesson09
+    public static class Lesson01
     {
         // This is an interface, which is very different from both classes and structs.
         // Interfaces are named 1) with an 'I' prefix, and 2) to describe some specific

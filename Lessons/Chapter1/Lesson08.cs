@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons
+namespace Lessons.Chapter1
 {
     // A static class is only allowed to have static members.
     public static class Lesson08
